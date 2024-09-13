@@ -29,7 +29,7 @@ import java.time.Duration;
             driver.get("https://app.germanyiscalling.com/common/login/?next=https%3A%2F%2Fapp.germanyiscalling.com%2Fcv%2Fhome%2F");
         }
 
-     /*   @Test
+      @Test
         public void testSuccessfulLogin() {
             WebElement emailField = driver.findElement(By.id("username"));
             WebElement passwordField = driver.findElement(By.id("password"));
@@ -44,7 +44,7 @@ import java.time.Duration;
             //assert (profileIcon.isDisplayed());
         }
     }
-/*
+
         @Test
         public void testUnsuccessfulLoginInvalidPassword() {
             WebElement emailField = driver.findElement(By.id("username"));
@@ -64,9 +64,9 @@ import java.time.Duration;
           //  assert (errorMessage.isDisplayed());
         }
     }
-*/
 
-      /*  @Test
+
+        @Test
         public void testUnsuccessfulLoginInvalidEmail() {
             WebElement emailField = driver.findElement(By.id("username"));
             WebElement passwordField = driver.findElement(By.id("password"));
@@ -82,9 +82,9 @@ import java.time.Duration;
             Assert.assertEquals(ExpectedText, ActualText);
         }
     }
-    */
+    
 
-        /*
+        
                 @Test
                 public void testEmptyFields() {
                     WebElement loginButton = driver.findElement(By.xpath("//button[@type='submit']"));
@@ -98,9 +98,7 @@ import java.time.Duration;
 
                 }
             }
-        /*
-        */
-        /*
+        
 
         @Test
         public void testLoginWithEmptyPassword() {
@@ -117,7 +115,7 @@ import java.time.Duration;
 
         }
     }
-*/
+
         @Test
         public void testLoginWithEmptyEmail() {
             WebElement emailField = driver.findElement(By.id("username"));
